@@ -8,3 +8,10 @@
 }
 /* Tailwind */
 @import "tailwindcss";
+
+/* custom theme */
+@theme {
+  --font-montserrat: Montserrat, sans-serif;
+  --color-blueText: #124af4;
+  --color-darkText: #333132;
+}
