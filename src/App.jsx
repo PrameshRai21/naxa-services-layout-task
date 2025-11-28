@@ -1,17 +1,22 @@
 import "./App.css";
-import React from "react";
-import Banner from "./components/Banner";
-import Content from "./components/Content";
+import React, { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getServicesData } from "./services/serviceApi.js";
+import { setServices } from "./features/serviceSlice";
+import Outlet from "./components/Outlet";
 
 function App() {
-  // const map_key = import.meta.env.VITE_MAPLIBRE_KEY;
-  // console.log(map_key);
+  const dispatch = useDispatch();
+  const { data } = getServicesData();
+
+  useEffect(() => {
+    if (data) dispatch(setServices(data));
+  }, [data]);
 
   return (
-    <div className="main scroll-smooth px-5 bg-[#f4f4f4]">
-      <Banner />
-      <Content />
-    </div>
+    <>
+      <Outlet />
+    </>
   );
 }
 
