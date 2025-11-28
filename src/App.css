@@ -1,1 +1,10 @@
+/* Google font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Property setup */
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+  initial-value: 400;
+}
+/* Tailwind */
 @import "tailwindcss";
