@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
 import Content from "./Content";
+import Map from "./Map";
 import { useSelector } from "react-redux";
 
 function Outlet() {
@@ -19,6 +20,7 @@ function Outlet() {
             <Content key={service.id} data={service} />
           ))}
         </div>
+        <Map />
       </div>
     </>
   );
