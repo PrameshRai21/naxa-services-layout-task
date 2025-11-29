@@ -1,8 +1,8 @@
-#About this project
+# About this project
 
 This is a clone project of Naxa Pvt. Ltd. website service layout as assessment task built using React library for UI. Redux Toolkit is used for state management and Tanstack Query- prevously known as React Query for handling API . Maplibre is used for map visualisation.
 
-##Built with
+## Built with
 
 Following libraries are used to build this project
 * VITE
@@ -13,7 +13,7 @@ Following libraries are used to build this project
 * Maplibre
 * Tailwind CSS
 
-##Project Setup 
+## Project Setup 
   To setup project, followed following steps
 ### 1. React + Vite
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
@@ -58,7 +58,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-### Check Live Project in link below
+# Check Live Project in link below
 **Click the link below***
 [Naxa Service Layout](https://naxa-services-layout-task.vercel.app/)
 
