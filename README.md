@@ -21,17 +21,25 @@ Following libraries are used to build this project
 
 ### 2. Other library installation 
 * Redux Toolkit Installation
-  -To work with **Redux Toolkit**, **React Redux** also needed because **RTK** is built on **React Redux**. /
+  -To work with **Redux Toolkit**, **React Redux** also needed because **RTK** is built on **React Redux**. 
   ```
   npm install react-redux @reduxjs/toolkit
   ```
 
 * Tanstack Query and Axios
+  -To install tanstack query, following command is used.
    ```
   npm install  @tanstack/react-query
-   ``` /
-   ```npm install  axios```
-
+   ```
+   -To install axios, use command below
+   ```
+  npm install  axios
+   ```
+* Maplibre
+  - To install [Maplibre](https://maplibre.org/maplibre-gl-js/docs/) in this project, command below is used.
+    ```
+    npm install maplibre-gl
+    ```
 
 
 ##
