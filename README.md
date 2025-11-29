@@ -1,11 +1,36 @@
-# React + Vite
+#About this project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a clone project of Naxa Pvt. Ltd. website service layout as assessment task built using React library for UI. Redux Toolkit is used for state management and Tanstack Query- prevously known as React Query for handling API . Maplibre is used for map visualisation.
 
-Currently, two official plugins are available:
+##Built with
 
+Following libraries are used to build this project
+* VITE
+* React
+* Redux Toolkit
+* Tanstack Query(React Query)
+* Axios
+* Maplibre
+* Tailwind CSS
+
+##Project Setup 
+  To setup project, followed following steps
+### 1. React + Vite
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### 2. Other library installation 
+* Redux Toolkit Installation
+  -To work with **Redux Toolkit**, **React Redux** also needed because **RTK** is built on **React Redux**. 
+  **npm install react-redux @reduxjs/toolkit**
+
+* Tanstack Query and Axios
+   ```npm install  @tanstack/react-query```
+   ```npm install  axios```
+
+
+
+##
 
 ## React Compiler
 
