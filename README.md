@@ -21,11 +21,15 @@ Following libraries are used to build this project
 
 ### 2. Other library installation 
 * Redux Toolkit Installation
-  -To work with **Redux Toolkit**, **React Redux** also needed because **RTK** is built on **React Redux**. 
-  **npm install react-redux @reduxjs/toolkit**
+  -To work with **Redux Toolkit**, **React Redux** also needed because **RTK** is built on **React Redux**. /
+  ```
+  npm install react-redux @reduxjs/toolkit
+  ```
 
 * Tanstack Query and Axios
-   ```npm install  @tanstack/react-query```
+   ```
+  npm install  @tanstack/react-query
+   ``` /
    ```npm install  axios```
 
 
