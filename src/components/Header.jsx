@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
+import logo from "../assets/naxa_logo.png";
 
 function Header() {
   const [visibility, setVisibility] = useState(false);
@@ -32,7 +33,7 @@ function Header() {
           <a href="#" className="company_logo max-w-[110px] ">
             <img
               className="max-w-full min-w-[100px] h-auto hover:cursor-pointer "
-              src={`../src/assets/naxa_logo.png`}
+              src={logo}
               alt=""
             />
           </a>
