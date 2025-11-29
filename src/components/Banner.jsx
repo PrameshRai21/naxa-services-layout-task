@@ -9,7 +9,7 @@ function Banner() {
         className=" bg-contain bg-white bg-no-repeat bg-right relative overflow-hidden block box-border min-h-[620px] xl:min-h-[530px]"
         style={{ backgroundImage: `url(${BgImage})` }}
       >
-        <div className="mb-24">
+        <div className="mb-16 lg:mb-24">
           <Header />
         </div>
         <div className="banner-caption mx-11 top-7 flex flex-row justify-start items-center h-full w-full box-border z-50 right-0 left-0 xl:top-11">
