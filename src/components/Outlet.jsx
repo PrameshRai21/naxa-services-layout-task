@@ -12,7 +12,7 @@ function Outlet() {
     : "";
   return (
     <>
-      <div className="main scroll-smooth px-2 lg:px-5 bg-[#f4f4f4]">
+      <div className="main scroll-smooth bg-[#f4f4f4]">
         <Banner />
         <div>
           {services.map((service) => (

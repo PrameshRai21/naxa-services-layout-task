@@ -19,14 +19,14 @@ function Content({ data }) {
         <div className="image_content w-full flex flex-col items-center px-[15px] relative lg:w-[50%]  ">
           <figure>
             <img
-              className="max-w-full min-w-[350px] h-unset min-h-[350px] max-h-[400px] lg:max-w-full lg:min-h-[500px] lg:w-[30rem] xl:min-h-[600px]  xl:w-[30rem]"
+              className="max-w-full min-w-[350px] h-unset min-h-[350px] max-h-[400px] lg:max-w-full lg:min-h-[500px] lg:w-120 xl:min-h-[600px]  xl:w-120"
               src={data?.icon}
               alt=""
             />
           </figure>
         </div>
         <div
-          className="text_content w-full flex flex-col items-center justify-center px-[15px] lg:w-[50%] lg:items-start bg-cover  bg-no-repeat"
+          className={`text_content w-full flex flex-col items-center justify-center px-[15px] lg:w-[50%] lg:items-start bg-cover  bg-no-repeat`}
           style={{ backgroundImage: `url(${BgImage})` }}
         >
           <div className="icon_holder">
@@ -43,15 +43,10 @@ function Content({ data }) {
               {data?.title}
             </h1>
           </div>
-          <div className="description1 text-center font-montserrat my-2.5 text-[.795rem] lg:leading-normal lg:text-left text-darkText ">
-            <p>
-              We build digital applications to provide digital solutions that
-              contribute to efficient data collection and visualization focusing
-              mainly on geodata collection and visualization.
-            </p>
-          </div>
-          <div className="description2 bg-[#e9ebff] text-center p-5 font-montserrat my-2.5 text-[.795rem] lg:leading-normal lg:text-left text-black">
+          <div className="description1 w-full min-h-14 text-center font-montserrat my-2.5 text-[.795rem] lg:leading-normal lg:text-left text-darkText ">
             <p>{htmlConverter(data?.description1)}</p>
+          </div>
+          <div className="description2 w-full min-h-14 bg-[#e9ebff] text-center p-5 font-montserrat my-2.5 text-[.795rem] lg:leading-normal lg:text-left text-black">
             <p>{htmlConverter(data?.description2)}</p>
           </div>
         </div>
