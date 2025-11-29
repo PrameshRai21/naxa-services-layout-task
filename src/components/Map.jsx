@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import "../assets/css/map.css";
 
 export default function Map() {
   const mapContainer = useRef(null);
@@ -40,13 +39,15 @@ export default function Map() {
   }, [lng, lat, zoom]);
 
   return (
-    <div className="w-screen h-auto">
-      <div>
-        <h1 className="text-darkText font-montserrat text-center font-semibold lg:text-4xl">
-          Our Location
-        </h1>
+    <div className="w-screen h-screen">
+      <div className="w-full h-full flex flex-col justify-center items-center gap-2">
+        <div>
+          <h1 className="text-darkText font-montserrat text-center font-semibold lg:text-4xl">
+            Our Location
+          </h1>
+        </div>
+        <div ref={mapContainer} className="w-[80%] h-[60%] md:h-[80%]" />
       </div>
-      <div ref={mapContainer} className="map h-[400px] w-[400px]" />
     </div>
   );
 }
