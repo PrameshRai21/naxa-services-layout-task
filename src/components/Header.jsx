@@ -29,10 +29,10 @@ function Header() {
             </p>
           </a>
         </div>
-        <div className="nav_container mx-20 px-3.5 flex flex-row justify-around items-center ">
+        <div className="nav_container mx-1.5 lg:mx-20 px-3.5 flex flex-row justify-around items-center ">
           <a href="#" className="company_logo max-w-[110px] ">
             <img
-              className="max-w-full min-w-[100px] h-auto hover:cursor-pointer "
+              className="w-16 lg:min-w-[110px]  h-auto hover:cursor-pointer "
               src={logo}
               alt=""
             />
@@ -54,7 +54,7 @@ function Header() {
             </div>
           </div>
           <a href="#" className="lets_talk_btn">
-            <button className="bg-yellowBg w-34  text-blueText text-[0.785rem] font-medium px-6 py-2 transition-all duration-200  hover:cursor-pointer hover:bg-amber-500">
+            <button className="bg-yellowBg lg:w-34  text-blueText text-[0.785rem] font-medium px-4 py-1 lg:px-6 lg:py-2 transition-all duration-200  hover:cursor-pointer hover:bg-amber-500">
               Let's talk
             </button>
           </a>
@@ -64,7 +64,7 @@ function Header() {
               onClick={() => setVisibility((visibility) => !visibility)}
               className={`block lg:hidden ${visibility ? "hidden" : "block"}`}
             >
-              <GiHamburgerMenu className="text-yellowBg text-3xl" />
+              <GiHamburgerMenu className="text-yellowBg text-2xl" />
             </button>
           </div>
         </div>
@@ -72,12 +72,12 @@ function Header() {
         <div className="mobile_view ">
           {visibility ? (
             <div
-              className={`nav z-1000 h-full fixed top-0 right-0 w-[50%] bg-yellowBg
+              className={`nav z-1000 h-full fixed top-0 right-0 w-[60%] bg-yellowBg
                     ${visibility ? "translate-x-0" : "translate-x-full"}`}
             >
               <div className="Cross_button w-full pr-5 flex justify-end mb-5">
                 <button onClick={() => setVisibility(false)}>
-                  <RxCross2 className="text-blueText text-3xl" />
+                  <RxCross2 className="text-blueText text-2xl" />
                 </button>
               </div>
               <ul className="flex flex-col text-[0.785rem] text-darkText font-medium">
