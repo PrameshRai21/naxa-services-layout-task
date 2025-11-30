@@ -1,7 +1,7 @@
 # About this project
 
 This is a clone project of Naxa Pvt. Ltd. website service layout as assessment task built using React library for UI. Redux Toolkit is used for state management and Tanstack Query- prevously known as React Query for handling API . Maplibre is used for map visualisation.
-**Click the link to see project live**
+-**Click the link to see project live**
 [Naxa Service Layout](https://naxa-services-layout-task.vercel.app/)
 
 ## Built with
